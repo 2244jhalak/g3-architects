@@ -49,6 +49,7 @@ header {
     color: white;
     background-color: orange;
     padding: 10px 15px;
+
 }
 
 .cover img {
@@ -57,4 +58,64 @@ header {
     width: 1000px;
     padding-left: 160px;
     padding-bottom: 50px;
+}
+
+.team {
+
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.team img {
+    height: 200px;
+    width: 200px;
+
+}
+
+.quick-list {
+    padding-left: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.quick-list h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.quick-list p {
+    text-align: center;
+}
+
+.work {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+footer {
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+footer h3 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
 }

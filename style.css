@@ -1,0 +1,60 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.name h1 {
+
+    font-size: 40px;
+    font-weight: bolder;
+    color: #131313;
+}
+
+.link a {
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight: bolder;
+
+    color: #424242;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.promo {
+    text-align: center;
+}
+
+.promo h1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.promo p {
+    font-weight: bolder;
+}
+
+
+
+.btn {
+    border: 2px solid orange;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    padding: 10px 15px;
+}
+
+.cover img {
+    padding-top: 50px;
+    height: 500px;
+    width: 1000px;
+    padding-left: 160px;
+    padding-bottom: 50px;
+}

@@ -112,6 +112,61 @@ header {
     margin-bottom: 50px;
 }
 
+.some-facts-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.some-facts-container h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.some-facts-container p {
+    font-weight: bolder;
+}
+
+.some-fact {
+    box-sizing: border-box;
+
+
+    width: 160px;
+    height: 170px;
+
+
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.some-facts {
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+    padding-left: 150px;
+}
+
+.number {
+
+    text-align: center;
+    padding-top: 0;
+}
+
+
+.some-fact img {
+    padding-top: 20px;
+    padding-left: 57px;
+    padding-right: 50px;
+
+
+
+
+}
+
+
+
 .sponsors-container p {
     text-align: center;
     padding-left: 150px;
@@ -131,6 +186,72 @@ header {
 
     padding-left: 120px;
     width: 100px;
+}
+
+.features-container {
+    width: 1200px;
+    height: 1000px;
+    margin-left: 60px;
+    margin-right: 20px;
+
+    border-radius: 10px;
+
+
+
+
+
+
+}
+
+.pro img {
+
+
+    height: 800px;
+    padding-left: 200px;
+}
+
+.pro button {
+    position: relative;
+    bottom: 70px;
+    left: 70px;
+    padding: 20px 60px;
+    border-radius: 10px;
+    border: 2px solid orange;
+
+    margin-left: 100px;
+    margin-bottom: 800px;
+    background-color: orange;
+    color: white;
+}
+
+.professional {
+    display: flex;
+}
+
+
+
+
+.features {
+
+    padding-left: 10px;
+
+
+}
+
+
+
+
+
+.feature {
+
+
+    margin: 10px;
+    padding-left: 10px;
+    height: 180px;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
 }
 
 footer {

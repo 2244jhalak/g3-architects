@@ -105,6 +105,34 @@ header {
     margin-right: 50px;
 }
 
+.sponsors-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sponsors-container p {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 1;
+    font-weight: bolder;
+
+    padding-bottom: 15px;
+}
+
+.sponsors-container h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.sponsors img {
+
+    padding-left: 120px;
+    width: 100px;
+}
+
 footer {
     height: 50px;
     margin-left: 100px;
